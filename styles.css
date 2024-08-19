@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #B9D9EB; /* Updated color */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure the header is above other content */
+    font-family: 'Roboto', sans-serif; /* Apply the new font here */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: black; /* Changed text color to black for better contrast */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    background-color: white;
+    margin-top: 60px; /* Space for the fixed header */
+    margin-bottom: 0; /* No margin between sections */
+    text-align: center; /* Center-align text and content */
+}
+
+/* About Section */
+.profile-pic {
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #B9D9EB; /* Optional: adds a border around the picture */
+}
+
+.profile-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-info table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.profile-info table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.profile-info table td:first-child {
+    font-weight: bold;
+}
+
+/* Education Section */
+.education-table {
+    margin-top: 20px;
+}
+
+.education-table table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.education-table table th,
+.education-table table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.education-table table th {
+    background-color: #B9D9EB;
+    color: white;
+}
+
+/* Projects Section */
+.project-links {
+    text-align: center; /* Center-align project links */
+}
+
+.project-links a {
+    display: inline-block;
+    margin: 0 15px; /* Increased margin for spacing */
+}
+
+.project-links img {
+    width: 80px; /* Increased size */
+    height: 80px; /* Increased size */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+.project-links img:hover {
+    transform: scale(1.1); /* Slightly larger on hover */
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #B9D9EB;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #a0c5e6;
+}
